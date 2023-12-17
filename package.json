@@ -1,8 +1,8 @@
 {
-  "name": "drag-drop2",
+  "name": "drag-drop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SSSerg05.github.io/drag-drop2/",
+  "homepage": "https://SSSerg05.github.io/drag-drop/",
   "author": "SSerg",
   "dependencies": {
     "@dnd-kit/core": "^6.1.0",
