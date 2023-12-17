@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/drag-drop2/static/css/main.b4d09c6b.css",
-    "main.js": "/drag-drop2/static/js/main.9be22eb2.js",
-    "index.html": "/drag-drop2/index.html",
-    "main.b4d09c6b.css.map": "/drag-drop2/static/css/main.b4d09c6b.css.map",
-    "main.9be22eb2.js.map": "/drag-drop2/static/js/main.9be22eb2.js.map"
+    "main.css": "/drag-drop/static/css/main.b4d09c6b.css",
+    "main.js": "/drag-drop/static/js/main.9be22eb2.js",
+    "index.html": "/drag-drop/index.html",
+    "main.b4d09c6b.css.map": "/drag-drop/static/css/main.b4d09c6b.css.map",
+    "main.9be22eb2.js.map": "/drag-drop/static/js/main.9be22eb2.js.map"
   },
   "entrypoints": [
     "static/css/main.b4d09c6b.css",
