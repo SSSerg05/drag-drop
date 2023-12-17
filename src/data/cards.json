@@ -1,0 +1,20 @@
+[
+  {
+    "id": "item-1", "name": "First", "color": "red", "columnId": "board-1" 
+  },
+  {
+    "id": "item-2", "name": "Second", "color": "green", "columnId": "board-1"  
+  },
+  {
+    "id": "item-3", "name": "Three", "color": "yellow", "columnId": "board-2"  
+  },
+  {
+    "id": "item-4", "name": "Four", "color": "orange", "columnId": "board-3"  
+  },
+  {
+    "id": "item-5", "name": "Five", "color": "blue", "columnId": "board-1" 
+  },
+  {
+    "id": "item-6", "name": "Six", "color": "cyan", "columnId": "board-3"  
+  }
+]

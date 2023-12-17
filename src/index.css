@@ -13,3 +13,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: orange !important;
+  border-radius: 0.75rem !important;
+}
+
+.task > ::-webkit-scrollbar-thumb {
+  background-color: rgb(14 165 233) !important;
+  border-radius: 0.75rem !important;
+  
+}
