@@ -1,4 +1,4 @@
-import { Desk } from "./New/Desk";
+import { Desk } from "./Desk";
 
 export const App = () => {
 

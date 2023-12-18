@@ -1,37 +1,16 @@
 import React, { useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
 
-import styled from '@emotion/styled';
 import { nanoid } from 'nanoid';
 
 import { DndContext, DragOverlay, PointerSensor, useSensor, useSensors } from '@dnd-kit/core';
 import { SortableContext, arrayMove } from '@dnd-kit/sortable';
 
-import initialDataColumn from '../../data/boards.json';
-import initialDataTasks from '../../data/cards.json';
-import {Column} from './Column';
-import Task from './Task';
-
-// yotube.com/watch?v=RG-3R6Pu_lk
-const Container = styled.div`
-  width: 1024px;
-  margin: 0 auto;
-  padding: 0 15px;
-`;
-
-const Board = styled.div`
-  width: 100%;
-  display: flex;
-  gap: 12px;
-`;
-
-const Button = styled.button`
-  width: 220px;
-  height: 50px;
-  padding: 15px;
-  margin: 8px;
-  background-color: lightcyan;
-`;
+import initialDataColumn from '../data/boards.json';
+import initialDataTasks from '../data/cards.json';
+import { Column } from './Column';
+import { Task } from './Task';
+import { Board, Button, Container } from './Desk.styled';
 
 
 export const Desk = () => {
@@ -257,3 +236,5 @@ export const Desk = () => {
     </Container>
   );
 }
+
+export default Desk;
